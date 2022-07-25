@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<title>Admin Page</title>
+        <style>
+        body{
+        border-style: double;
+        border-width: 3px;
+        border-left-width: 5px;
+        border-right-width: 5px;
+        border-left-color: #39FF14;
+        border-right-color: #39FF14;
+        border-top-color: black;
+        border-bottom-color: black;
+        background-color:black;
+        padding-left:50px;
+        padding-right 50px;
+        margin-left:100px;
+        margin-right:50px;
+        padding-top:10px;
+        color:white;
+        width:80%;
+        height:150%;
+        }
+        @keyframes translate
+        {
+            from{color:black;position:absolute; top:10px; left:100px;}
+            to{color:#15F4EE;position:absolute; top:10px; left:900px;}
+
+        }
+        .intro
+        {
+            animation-name:translate;
+            animation-duration:10s;
+            width:20%;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        #one{background-color:white; 
+            width:95%; 
+            color:black; 
+            height:100px; 
+            text-align:center;
+            line-height:2em;}
+        #linkone{font-family:'Share Tech Mono';
+         font-size:20px; 
+         color:black;
+        text-decoration: none; 
+        text-align:center;}
+        #two{background-color:white; 
+            width:95%; 
+            color:black; 
+            height:100px; 
+            text-align:center;
+            line-height:2em;}
+        #linktwo{font-family:'Share Tech Mono';
+         font-size:20px; 
+         color:black;
+        text-decoration: none; 
+        text-align:center;}
+        #three{background-color:white; 
+            width:95%; 
+            color:black; 
+            height:100px; 
+            text-align:center;
+            line-height:2em;}
+        #linkthree{font-family:'Share Tech Mono';
+         font-size:20px; 
+         color:black;
+        text-decoration: none; 
+        text-align:center;}
+        #four{background-color:white; 
+            width:95%; 
+            color:black; 
+            height:100px; 
+            text-align:center;
+            line-height:2em;}
+        #linkfour{font-family:'Share Tech Mono';
+         font-size:20px; 
+         color:black;
+        text-decoration: none; 
+        text-align:center;}
+        #five{background-color:white; 
+            width:95%; 
+            color:black; 
+            height:100px; 
+            text-align:center;
+            line-height:2em;}
+        #linkfive{font-family:'Share Tech Mono';
+         font-size:20px; 
+         color:black;
+        text-decoration: none; 
+        text-align:center;}
+        </style>
+        <script type="text/javascript" src="admin1.js">
+        </script>
+    </head>
+    <body>
+        <div class="intro">
+        <h2 style="font-family:'Press Start 2P'; text-align:center; color:#15F4EE">FEST<br>
+         DATABASE</h2>
+        </div>
+        <br><br><br>
+        <br>
+        <br>
+        <div id="one" onmouseover="func1();" onmouseleave="func11();"><br>
+        <a href="" id="linkone">
+            <b>SEE STUDENT REGISTRATIONS</b>
+        </a>
+        </div>
+        <br><br>
+        <div id="two" onmouseover="func2();" onmouseleave="func22();"><br>
+        <a href="" id="linktwo">
+            <b>SEE EVENTS</b>
+        </a></div>
+        <br><br>
+        <div id="three" onmouseover="func3();" onmouseleave="func33();"><br>
+        <a href="" id="linkthree">
+            <b>SEE CO-ORDINATORS</b>
+        </a></div>
+        <br><br>
+        <div id="four" onmouseover="func4();" onmouseleave="func44();"><br>
+        <a href="" id="linkfour">
+            <b>SEE VOLUNTEERS</b>
+        </a></div>
+        <br><br>
+        <div id="five" onmouseover="func5();" onmouseleave="func55();"><br>
+        <a href="" id="linkfive">
+            <b>SEE WINNERS</b>
+        </a></div>
+    </body>
+</html>
